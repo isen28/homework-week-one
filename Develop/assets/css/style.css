@@ -4,10 +4,19 @@
     margin: 0;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
-
+/*Sets the overall header box and main logo color*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,12 +28,12 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Sets different color for "seo" section of logo*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/*Formats the navigation menu*/
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +41,15 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header section ul {
     list-style-type: none;
 }
 
-header div ul li {
+header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Sets the central background image*/
 .background-image {
     height: 800px;
     width: 100%;
@@ -58,50 +58,13 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/*Defines the content box*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-subsection {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-subsection h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-subsection img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*Defines each subsection of the content box*/
 .content-subsection {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +83,45 @@ p {
     font-size: 36px;
 }
 
+/*Moves content images to the left side of the content box*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Moves content images to the right side of the content box*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Defines the benefits box*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*Defines each subsection of the benefits box*/
+.benefit-subsection {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-subsection h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-subsection img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*Sets the overall footer box*/
 footer {
     padding: 30px;
     clear: both;
