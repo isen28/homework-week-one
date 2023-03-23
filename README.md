@@ -6,7 +6,7 @@ A home plage for Horiseon that has been updated so the HTML and CSS code have in
 
 ## Usage
 
-Follow the ![link](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+Follow the ![link](https://https://isen28.github.io/homework-week-one/Develop/)
 
 ## Installation
 
